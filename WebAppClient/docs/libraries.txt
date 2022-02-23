@@ -1,0 +1,7 @@
+external libraries used:
+
+LGoodDatePicker
+
+google.code.gson
+
+org.json

@@ -1,0 +1,61 @@
+---------------------------------------User Manual------------------------------------------
+
+Once the application is run, user is met with a 525x550 screen
+titled "Consumable Item Tracker".
+
+From this screen the user can either:
+
+       1. View Consumables in user-list through 4
+       different filters/sort
+
+       2. Add a new Item by pressing the "Add Item"
+       Button
+
+       3. Delete a consumable item (If exists)
+
+--------------------------------------------------------------------------------------------
+
+1. View Consumable
+
+    - The user has four tabs to choose from at the top of their
+      window. They can select either "All", "Expired", "Non Expired",
+      "Expiring in 7 days". These tabs will filter the Consumable results
+       and display a resulting list of items.
+
+    - If no suitable item exists, user is a displayed a message "No consumable items to display"
+
+--------------------------------------------------------------------------------------------
+
+2. Add Item
+
+    - Following the click of the "Add Item" button, the user is met with a new dialog screen.
+      From here the user can either exit/cancel or add a new item.
+
+      (From top to bottom)
+      - User selects Food/Drink
+      - Inputs item name
+      - Inputs item notes (can be blank)
+      - Inputs item price (only numeric values allowed)
+      - Inputs item weight/volume (only numeric values allowed)
+      - Chooses a date/time from the datetimepicker
+
+      Then the user either clicks:
+      - Add item, item is added to consumable list, returned to original screen
+      with updated list
+      - Cancel, item add is cancelled, returned to original screen.
+
+--------------------------------------------------------------------------------------------
+3. Delete Item
+
+    - IF item(s) exist, user will be displayed with a button "delete".
+
+    - Delete button is displayed with the corresponding item, pressing the
+      button permanently deletes the item.
+
+    - Each panel updates automatically following the deletion of an item. User
+      is also sent to the 'all' tab.
+
+--------------------------------------------------------------------------------------------
+
+Following the exit of the program, the user consumable list (if exists) is saved automatically,
+and the list will be loaded on the next run of the program.
